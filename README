@@ -1,0 +1,19 @@
+Skrypt-Python
+=============
+
+Gra Dragon Wars (klon Bejeweled) oparta o bibliotekę Pygame.
+
+!!! Gra dziala pod systemem Windows. Poczatkowo pisalam ją na systemie OSX,
+ale wyglada na to, że obsluga zdarzen myszy Pygame nie do konca dziala 
+na tym systemie (przykladowe programy pobrane z oficjalnej strony Pygame 
+też mialy ten problem na OSX). 
+
+Rozgrywka przebiega nastepująco:
+
+1. Plansza (8x8) wypelniana jest jewelami wybranymi losowo z puli (jest ich 7 rodzajow) 
+2. Gracz zdobywa punkty laczac w jednym wierszu/kolumnie w trojki (lub czworki, piatki) 
+   jewele tego samego rodzaju
+3. Puste miejsca sa wypelniane losowymy jewelami
+4. Gdy zdarzy sie, ze na planszy nie istnieje zaden mozliwy potencjalny ruch, pojawia
+   sie informacja o tym, a gracz moze kliknac gdziekolwiek by rozpoczac kolejna gre
+
